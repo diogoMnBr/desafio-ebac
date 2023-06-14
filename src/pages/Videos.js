@@ -15,7 +15,7 @@ function Videos(props) {
 
         if(play === true) {
             videoRef.current.pause()
-            setPlay(true)
+            setPlay(false)
         }
     }
 
