@@ -7,7 +7,7 @@ function Videos(props) {
     const [play, setPlay] = useState(false)
 
     function handleStart(){
-
+        /* Só consegui passar a condição utilizando comparador do último nível "===" */
         if(play === false) {
             videoRef.current.play()
             setPlay(true)
