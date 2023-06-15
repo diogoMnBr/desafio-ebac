@@ -7,8 +7,8 @@ function Videos(props) {
     const [play, setPlay] = useState(false)
 
     function handleStart(){
-        /* Só consegui passar a condição utilizando comparador do último nível "===" */
-        if(play === false) {
+        /* Só consegui passar a condição utilizando operador de igualdade estrita */
+        /* if(play === false) {
             videoRef.current.play()
             setPlay(true)
         }
@@ -16,7 +16,10 @@ function Videos(props) {
         if(play === true) {
             videoRef.current.pause()
             setPlay(false)
-        }
+        } */
+
+        /*simplificação utilizando operador ternário - Se o estado atual for falso, o play é acionado setando o setPlay para true. Se não, é acionado o pause e tem o setPlay setado para false.*/
+        (!play ? videoRef.current.play(setPlay(true)) : videoRef.current.pause(setPlay(!play)));
     }
 
     return (
