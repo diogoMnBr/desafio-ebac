@@ -2,6 +2,7 @@ import React, { useRef, useState } from 'react';
 import './video.css';
 import VideoFooter from "./components/footer/VideoFooter"
 import VideoSideBar from "./components/sidebar/VideoSideBar"
+/* import VideoHeader from "./components/header/VideoHeader" */
 
 function Videos({likes, messages, shares, name, description, music, url}) {
 
@@ -26,6 +27,7 @@ function Videos({likes, messages, shares, name, description, music, url}) {
 
     return (
         <div className='video'>
+            
             <video 
                 className="video-player"
                 ref={videoRef}
@@ -34,6 +36,7 @@ function Videos({likes, messages, shares, name, description, music, url}) {
                 src={url}
             >
             </video>
+            {/* <VideoHeader /> */}
             <VideoSideBar 
                 likes={likes}
                 messages={messages}

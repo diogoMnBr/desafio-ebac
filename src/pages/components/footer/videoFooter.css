@@ -42,6 +42,13 @@
     filter: invert(1);
 }
 
+.logoPrincipal {
+    position: absolute;
+    bottom: 1400px;
+    left: -10px;
+    width: 200px;
+}
+
 @keyframes spinTheRecord {
     0%{
         transform: rotate(0deg);
