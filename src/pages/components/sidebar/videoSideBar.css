@@ -9,3 +9,20 @@
     padding: 20px;
     text-align: center;
 }
+
+@media only screen and (max-width: 6280px) {
+    .videoSideBar {
+        top: 46%;
+    }
+}
+
+@media only screen and (max-width: 426px) {
+    .videoSideBar {
+        top: 40%;
+    }
+    .videoSideBar-Options {
+        padding: 10px;
+        margin-right: 10px;
+        
+    }
+}

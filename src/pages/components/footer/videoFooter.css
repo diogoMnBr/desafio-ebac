@@ -58,3 +58,21 @@
         transform: translateX(-100%);
     }
 }
+
+@media only screen and (max-width: 628px) {
+    .videoFooter{
+      bottom: 22%;
+    }
+    .videoFooter-text {
+        width: 89%;
+    }
+  }
+
+  @media only screen and (max-width: 321px) {
+    .videoFooter{
+      bottom: 27%;
+    }
+    .videoFooter-text {
+        width: 69%;
+    }
+  }

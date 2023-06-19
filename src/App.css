@@ -31,3 +31,35 @@ html {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+
+/* Responsividade */
+@media only screen and (max-width: 628px) {
+  .app-videos{
+    width: 100%;
+    height: 100vh;
+  }
+}
+
+@media only screen and (max-width: 504px) {
+  .app-videos{
+    width: auto;
+    height: 100vh;
+  }
+}
+
+
+@media only screen and (max-width: 440px) {
+  .app-videos{
+    width: auto;
+    height: 100vh;
+  }
+}
+
+
+
+@media only screen and (max-width: 321px) {
+  .app-videos{
+    height: 800px;
+    max-height: 800px;
+  }
+}
