@@ -4,3 +4,6 @@
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=diogoMnBR&repo=desafio-ebac&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=diogoMnBr&Layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+
+[<img src='https://img.shields.io/badge/LinkedIn-ee7785?style-for-the-badge&logo=linkedin&logocolor=white' alt='Linkedin' height="30">](https://www.linkedin.com
+/in/odiogovideomaker/)
