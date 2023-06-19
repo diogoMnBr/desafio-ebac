@@ -3,6 +3,7 @@ import './App.css';
 import Videos from './pages/Videos.js';
 import db from './config/firebase';
 import { collection, getDocs } from 'firebase/firestore/lite';
+/* import Header from './pages/components/header/Header'; */
 
 function App(/* {likes, messages, shares} */) {
 
@@ -28,6 +29,10 @@ function App(/* {likes, messages, shares} */) {
 
   return (
     <div className="App" style={{ maxHeight: maxHeight + "px"}}>
+      {/* <div className="header-app">
+        <Header />
+      </div> */}
+
       <div className="app-videos">
         
         { video.map((item)=>{
